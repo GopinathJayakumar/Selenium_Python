@@ -10,7 +10,7 @@ from selenium import webdriver
 
 def setup_module():
     global driver
-    driver = webdriver.Chrome("C:\\TestLeaf\\eclipse-workspace\\SeleniumPython\\drivers\\chromedriver.exe")
+    driver = webdriver.Chrome("C:\\gopi\\eclipse-workspace\\SeleniumPython\\drivers\\chromedriver.exe")
     driver.maximize_window()
     driver.implicitly_wait(10)   
 
